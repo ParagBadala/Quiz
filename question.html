@@ -1,0 +1,59 @@
+
+
+<!DOCTYPE html>
+<html>
+	<head>
+	<title>FORM_2</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="question.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!--aading bootstrap css library-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <!--Adding jquery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <!--Adding bootstrap js library-->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="question.js"></script>
+	</head>
+	<body onload="main()" >
+        <nav class="navbar">
+            <div class="container-fluid">
+                <h2>QUIZ PORTAL</h2>
+            </div>
+        </nav>
+        <div id="timer"></div>
+        <div id="cont" class="container">
+            <div id="page">
+                <div id="no">1</div>	
+                <div id="question"></div>
+            <form name="form1" >
+                <div class="radio">
+                    <label><input type="radio" name="optradio" id="r1"><span id="option1"></span></label><br/>
+             <!--   </div>
+                <div class="radio">-->
+                    <label><input type="radio" name="optradio" id="r2"><span id="option2"></span></label><br/>
+                <!--</div>
+                <div class="radio">-->
+                    <label><input type="radio" name="optradio" id="r3"><span id="option3"></span></label><br/>
+               <!-- </div>
+                <div class="radio">-->
+                    <label><input type="radio" name="optradio" id="r4"><span id="option4"></span></label><br/>
+                </div>
+            <div class="row">
+            <div class="pull-left">
+                <button type="button" class="btn btn-primary btn-lg" id="butn" onclick="return prevQuestion()">PREV
+                <span class="glyphicon glyphicon-chevron-left"></span>
+                </button>
+            </div>
+            <div class="pull-right">
+                <button type="button" class="btn btn-primary btn-lg" id="butn1"  onclick="return nextQuestion()"><span id="next">NEXT</span>
+                <span class="glyphicon glyphicon-chevron-right"></span>
+                </button>
+            </div>
+            </div>
+            </form>
+            </div>
+        </div>
+	</body>
+</html>

@@ -1,0 +1,34 @@
+.navbar{
+            background-color:black;
+            padding-left: 10px;
+            text-align: center;
+         }
+.container-fluid{
+    color:white;
+    text-align:center;
+    font-family: "Comic Sans MS", cursive, sans-serif
+}
+h2{
+    padding-top:10px;
+}
+.container{
+        padding-top: 70px;
+        margin-top:180px;
+        background-color: lightgoldenrodyellow;
+        height:300px;
+        }
+form{
+    padding-top: 20px;
+    margin-left: 300px;
+    }
+.navbar{
+        height:100px;
+        }
+.btn{
+    margin-left: 70px;
+    width: 100px;
+    height: 40px;
+}
+#quizbody{
+    margin-left:100px;
+}

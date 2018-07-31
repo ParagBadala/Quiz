@@ -1,0 +1,48 @@
+
+
+<!DOCTYPE html>
+<html>
+	<head>
+	<title>FORM_2</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="practice.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!--aading bootstrap css library-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <!--Adding jquery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <!--Adding bootstrap js library-->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="practice.js"></script>
+	</head>
+	<body>
+        <nav class="navbar">
+            <div class="container-fluid">
+                <h2>QIMAGICA</h2>
+            </div>
+        </nav>
+        <div class="container">
+            <form class="form-horizontal" action="question.html" method="get" name="form1" onsubmit="return false;" > 
+            <div class="form-group">
+                <label class="control-label col-sm-3">Username</label>
+                <div class="col-sm-3">
+                    <input type="text" class="form-control" name="txtUserName" id="userName" placeholder="Enter Username" required>
+                </div>
+            </div>
+            <div class="form-group">
+                <label class="control-label col-sm-3">Password</label>
+                <div class="col-sm-3">
+                    <input type="password" class="form-control" name="txtPwd" id="pwd" placeholder="Enter Password"  required>
+                </div>
+            </div>
+            <div class="form-group">        
+                <div class="col-sm-offset-2 col-sm-10">
+                    <input type="submit" class="btn btn-primary" value="Submit" onclick="return loginDetail()" />
+                </div>
+            </div>
+            <div id="error"></div>
+        </div>
+    </form>
+	</body>
+</html>

@@ -1,0 +1,63 @@
+.navbar{
+        background-color:black;
+        padding-left: 10px;
+        text-align: center;
+}
+.container-fluid{
+    color:white;
+    text-align:center;
+    font-family: "Comic Sans MS", cursive, sans-serif
+}
+#timer{
+    float: right;
+    padding-top:40px;
+    padding-right: 100px;
+    color:red;
+    font-size: 25px;
+}
+h2{
+    padding-top:10px;
+}
+.container{
+        padding-top: 70px;
+        margin-top:100px;
+        background-color: lightgoldenrodyellow;
+        height:400px;
+        }
+form{
+    padding-top: 20px;
+    margin-left: 100px;
+    }
+.navbar{
+        height:100px;
+        }
+.btn{
+    margin-top:50px;
+    margin-left: -105px;
+    width: 100px;
+    height: 40px;
+}
+.radio{
+    padding-bottom: 20px;
+}
+#r1,#r2,#r3,#r4{
+    padding-bottom: 20px;
+}
+
+#page{
+    font-size: 20px;
+    margin-left:10px;
+}
+#question{
+    margin-left:20px;
+    display:inline;
+}
+#no{
+    margin-left: 100px;
+    display:inline;
+}
+#option1,#option2,#option3,#option4{
+    padding-left: 15px;
+    padding-bottom: 10px;
+    font-size: 16px;
+} 
